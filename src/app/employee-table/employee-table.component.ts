@@ -101,7 +101,7 @@ export class EmployeeTableComponent implements OnInit {
             enabled: false
           },
           datalabels: {
-            formatter: (value, ctx) => {
+            formatter: (value) => {
               return `${value}%`
             }
           }
