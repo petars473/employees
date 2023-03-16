@@ -105,12 +105,9 @@ export class EmployeeTableComponent implements OnInit {
               return `${value}%`
             }
           }
-          
-          
         }  
       }
     }
-  
     const canvas = this.chartCanvas.nativeElement;
     this.chart = new Chart(canvas, config); 
   }
